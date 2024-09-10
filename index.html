@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name">
+            <div class="secrch_icon">
+                <img src="images/search.png" alt="search" width="12">
+            </div>
+        </div>
+        <div class="error">
+            <p>Inavlid City Name</p>
+        </div>
+        <div class="weather">
+            <img src="images/mist.png" class="weather_icon" width="130">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Mansoura</h2>
+        </div>
+        <div class="detailes">
+            <div class="content1">
+                <img src="images/humidity.png" alt="..." class="humidity" width="35">
+                <div class="text_content">
+                    <h3 class="humidity_val">64%</h3>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="content1">
+                <img src="images/wind.png" alt="..." class="speed" width="35">
+                <div class="text_content">
+                    <h3 class="speed_val">18 Km/h</h3>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
