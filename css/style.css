@@ -86,3 +86,26 @@ h2{
     font-weight: 400;
     display: none;
 }
+@media (max-width: 550px) {
+    .card{
+        width: 300px;
+        padding: 20px;
+    }
+    .search{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    input{
+        width: 70%;
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        background-color: aliceblue;
+        border-radius: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        color: #373737;
+    }
+}
